@@ -1,0 +1,19 @@
+public class Rectangle {
+	public static void main(String[] args) {
+		scanner keyboard = new Scannerr(System.in);
+		
+		System.out.print("가로의 길이는?(단위:m)");
+		double width = keyboard.nextDouble();
+		
+		System.out.print("세로의 길이는?(단위:m)");
+		double height = keyboard.nextDouble();
+		
+		double result = width*height;
+		System.out.println("직사각형의 넓이:"+result);
+		
+		result = (width+height)*2;
+		System.out.println("직사각형의 둘레:"+result);
+		
+		keyboard.close();
+	}
+}
