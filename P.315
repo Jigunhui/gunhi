@@ -1,0 +1,21 @@
+package sec8;
+
+public class ObjectMethodDemo {
+	Public static void main(String[]args) {
+		Mouse m1 = new Mouse("Logithech");
+		Mouse m2 = new Mouse("Logithech");
+		Mouse m3 = m1;
+		keyboard k1 = new Keyboard("Microsoft");
+		keyboard k2 = new Keyboard("Microsoft");
+		
+		System.out.println(m1.toString());
+		System.out.println(m1);
+		
+		System.out.println(k1.toString());
+		C
+		
+		System.out.println(m1.equals(m2));
+		System.out.println(m1.equals(m3));
+		System.out.println(k1.equals(k2));
+	}
+}
