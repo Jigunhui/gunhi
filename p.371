@@ -1,0 +1,11 @@
+public class EntryDemo{
+	public static void main(String[]args) {
+		Entry<String, Interger> e1 = new Entry<>("김선달", 20);
+		Entry<String, Interger> e2 = new Entry<>("기타", "등등");
+		//Entry<int, String>e3 = new Entry<>(30, "아무개");
+		
+		System.out.println(e1.getkey() + "" + e1.getValue());
+		System.out.println(e2.getkey() + "" + e2.getValue());
+	}
+}
+	
